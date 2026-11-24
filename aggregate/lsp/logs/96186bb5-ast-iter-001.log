@@ -1,0 +1,7 @@
+[2026-11-24T08:39:44Z] === AST ITERATION 1 START | repo=RustCrypto/formats sha=96186bb5 ===
+[2026-11-24T08:39:44Z] [iter=1] PHASE START: ast repo=RustCrypto/formats sha=96186bb5
+[2026-11-24T08:39:44Z] [iter=1] Building AST aggregate chunks
+[2026-11-24T08:43:20Z] [iter=1] AST chunks built count=1 triples=1872738
+[2026-11-24T08:43:20Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/96186bb54b6da8a94cb8bebd2572b01740464e06/.complete
+[2026-11-24T08:43:20Z] [iter=1] PHASE END: ast elapsed_s=216 elapsed_min=3.6
+[2026-11-24T08:43:20Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
