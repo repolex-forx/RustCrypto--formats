@@ -1,0 +1,55 @@
+[2026-11-24T08:45:17Z] === ENRICH ITERATION 1 START | repo=RustCrypto/formats sha=96186bb5 ===
+[2026-11-24T08:45:17Z] [iter=1] PHASE START: enrich repo=RustCrypto/formats sha=96186bb5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/96186bb5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/96186bb54b6da8a94cb8bebd2572b01740464e06.nq.gz
+[2026-11-24T08:45:17Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T08:45:35Z] [iter=1] AST store loaded triples=1872738 load_secs=17 mem_mb=814 MB
+[2026-11-24T08:45:35Z] [iter=1] Step 2: Finding LSP targets mem_mb=814 MB
+[2026-11-24T08:45:38Z] [iter=1] LSP targets found call_sites=12963 imports=730 extends=0 implements=339 secs=3
+[2026-11-24T08:45:40Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=814 MB
+[2026-11-24T08:45:48Z] [iter=1] Position index built positions=129853 nodes_with_types=152971 secs=8 mem_mb=814 MB
+[2026-11-24T08:45:48Z] [iter=1] Step 3: Starting LSP resolution mem_mb=814 MB already_completed_types=[] already_completed_files=0
+[2026-11-24T08:45:48Z] [iter=1] Resolving target type target_type=call_site count=12963
+[2026-11-24T08:46:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=base64ct/src/alphabet/standard.rs
+[2026-11-24T08:46:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=5 resolved=265 errors=0 current=sec1/tests/traits.rs
+[2026-11-24T08:47:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=8 resolved=470 errors=0 current=cmpv2/tests/cert_req.rs
+[2026-11-24T08:48:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=12 resolved=679 errors=0 current=der/derive/src/choice/variant.rs
+[2026-11-24T08:49:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=15 resolved=940 errors=0 current=const-oid/oiddbgen/src/main.rs
+[2026-11-24T08:50:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=18 resolved=1058 errors=0 current=pem-rfc7468/src/error.rs
+[2026-11-24T08:50:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=20 resolved=1162 errors=0 current=base64ct/src/encoding.rs
+[2026-11-24T08:51:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=23 resolved=1461 errors=0 current=x509-cert/tests/pkix_extensions.rs
+[2026-11-24T08:52:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=24 resolved=1938 errors=0 current=cms/tests/enveloped_data.rs
+[2026-11-24T08:53:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=25 resolved=2187 errors=0 current=cms/src/builder.rs
+[2026-11-24T08:54:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=29 resolved=2352 errors=0 current=pkcs8/src/private_key_info.rs
+[2026-11-24T08:54:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=31 resolved=2499 errors=0 current=base64ct/src/decoder.rs
+[2026-11-24T08:55:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=32 resolved=2714 errors=0 current=der/src/header.rs
+[2026-11-24T08:56:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=35 resolved=2830 errors=0 current=pkcs5/src/pbes2/kdf.rs
+[2026-11-24T08:56:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=36 resolved=2938 errors=0 current=pkcs8/tests/traits.rs
+[2026-11-24T08:57:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.5 files_done=40 resolved=3187 errors=0 current=der/derive/src/choice.rs
+[2026-11-24T08:58:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=43 resolved=3586 errors=0 current=cmpv2/tests/rr_req.rs
+[2026-11-24T08:59:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=46 resolved=3819 errors=0 current=x509-cert/tests/certificate.rs
+[2026-11-24T08:59:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=49 resolved=4035 errors=0 current=pkcs7/src/content_type.rs
+[2026-11-24T09:00:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=53 resolved=4218 errors=0 current=sec1/src/traits.rs
+[2026-11-24T09:01:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=55 resolved=4455 errors=0 current=x509-cert/src/name.rs
+[2026-11-24T09:02:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=60 resolved=4670 errors=0 current=cms/tests/encrypted_data.rs
+[2026-11-24T09:02:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.4 files_done=62 resolved=4763 errors=0 current=der/src/asn1/integer/uint.rs
+[2026-11-24T09:03:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=63 resolved=4881 errors=0 current=pkcs1/src/error.rs
+[2026-11-24T09:03:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=69 resolved=5105 errors=0 current=der/src/reader/slice.rs
+[2026-11-24T09:04:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.5 files_done=72 resolved=5325 errors=0 current=tls_codec/derive/tests/encode_bytes.rs
+[2026-11-24T09:05:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.0 files_done=74 resolved=5446 errors=0 current=spki/src/algorithm.rs
+[2026-11-24T09:05:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.5 files_done=77 resolved=5548 errors=0 current=cmpv2/tests/genm_req.rs
+[2026-11-24T09:06:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.1 files_done=82 resolved=5704 errors=0 current=der/src/tag.rs
+[2026-11-24T09:06:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.7 files_done=84 resolved=5870 errors=0 current=x509-tsp/src/lib.rs
+[2026-11-24T09:07:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=89 resolved=6031 errors=0 current=x509-cert/src/request.rs
+[2026-11-24T09:08:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=93 resolved=6152 errors=0 current=pkcs1/tests/private_key.rs
+[2026-11-24T09:08:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=97 resolved=6339 errors=0 current=pem-rfc7468/src/decoder.rs
+[2026-11-24T09:10:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.8 files_done=99 resolved=6571 errors=0 current=der/src/asn1/ia5_string.rs
+[2026-11-24T09:10:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=102 resolved=6740 errors=0 current=pkcs5/src/pbes2/encryption.rs
+[2026-11-24T09:11:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=105 resolved=6878 errors=0 current=der/derive/src/enumerated.rs
+[2026-11-24T09:12:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=109 resolved=7123 errors=0 current=cms/src/signed_data.rs
+[2026-11-24T09:13:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=115 resolved=7342 errors=0 current=x509-cert/test-support/src/zlint.rs
+[2026-11-24T09:13:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=118 resolved=7501 errors=0 current=der/src/asn1/any.rs
+[2026-11-24T09:14:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=119 resolved=7565 errors=0 current=pkcs1/tests/params.rs
+[2026-11-24T09:14:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=122 resolved=7764 errors=0 current=der/src/asn1/printable_string.rs
+[2026-11-24T09:15:18Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=123 new_files_this_iter=123 mem_mb=814 MB
+[2026-11-24T09:15:18Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/96186bb54b6da8a94cb8bebd2572b01740464e06.nq.gz triples=73257
+[2026-11-24T09:15:19Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-24T09:15:19Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=123
